@@ -17,4 +17,3 @@ d) docker inspect zad1
 docker run --rm --privileged multiarch/qemu-user-static --reset -p yes
 
 docker buildx build -t mskrz/labs:zad1 --platform linux/arm/7,linux/arm64/v8,linux/amd64 --push .
-
